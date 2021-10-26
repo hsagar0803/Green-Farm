@@ -1,0 +1,27 @@
+<div class="form-group w-50">
+    <label for="title">Title</label>
+    <input type="text" name="title" id="title" [(ngModel)]="title" class="form-control">
+
+</div>
+<button class="btn btn-primary" (click)="saveTodo()"> Save</button>
+<table class="table">
+    <tr>
+        <th>sr.no.</th>
+        <th>title</th>
+        <th>Action</th>
+    </tr>
+    <tr *ngFor="let todo of mytodos; let i = index">
+        <td> {{ i + 1 }} </td>
+        <td> {{ todo.title }} </td>
+        <td>
+            <button class="btn btn-warning " (click)="editTodo(todo.todoId)">Edit</button>
+            <button class="btn btn-danger " (click)="deleteTodo(todo.todoId)">Delete</button>
+        </td>
+    </tr>
+</table>
+
+<!--
+    input type file => fle png, jpeg
+    cloud storage image upload
+    download url realtime database
+-->

@@ -1,0 +1,42 @@
+<div class="container main-content ">
+    <div class="row col-md-12">
+    <form class="form-horizontal" role="form">
+        <h2>Registration</h2>
+        <div class="form-group">
+            <label for="u_name" class="col-sm-3 control-label"> Name</label>
+            <div class="col-sm-9">
+                <input type="text" name="u_name" id="u_name"  [(ngModel)]="u_name"  placeholder=" Name" class="form-control" autofocus>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="u_phone" class="col-sm-3 control-label">Phone</label>
+            <div class="col-sm-9">
+                <input type="phoneNumber" name="u_phone"  id="u_phone"  [(ngModel)]="u_phone" placeholder="Phone number" class="form-control">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email" class="col-sm-3 control-label">Email* </label>
+            <div class="col-sm-9">
+                <input type="email" name="email" id="email"  [(ngModel)]="email" placeholder="Email" class="form-control" name= "email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="password" class="col-sm-3 control-label">Password*</label>
+            <div class="col-sm-9">
+                <input type="password" name="password" id="password"  [(ngModel)]="password" placeholder="Password" class="form-control">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="c_password" class="col-sm-3 control-label">Confirm Password*</label>
+            <div class="col-sm-9">
+                <input type="password" name="c_password" id="c_password"  [(ngModel)]="c_password" placeholder="Password" class="form-control">
+            </div>
+        </div>
+     <!-- /.form-group -->
+
+       <button type="submit" class="btn btn-primary btn-block" (click)="saveRagister()" >Register</button>
+    </form> <!-- /form -->
+</div><!-- /row -->
+</div> <!-- ./container -->
+
+

@@ -1,0 +1,43 @@
+.xyz{
+    width: 90%;
+    padding-left: 10%;
+    margin: 5%;
+    background-color: ivory;
+
+}
+.form{
+    padding-top: 10px;
+}
+.form img{
+    background-color:gray;
+  
+}
+.head{
+    background-color: forestgreen;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #fff;
+    opacity: .8;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.button{
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    background-color: forestgreen;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.button:hover{
+    opacity: .9;
+}
+
+  

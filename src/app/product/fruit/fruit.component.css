@@ -1,0 +1,117 @@
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+    padding: 15px 0;
+    /*background: rgba(34, 167, 240, 0.6);*/
+    /*background-color: rgba(191, 4, 51,.9);*/
+    background-color:#f07d7d;
+    min-height: 40px;
+    
+  }
+  
+  .breadcrumbs h2 {
+    font-size: 26px;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .breadcrumbs ol a {
+    color: #fff;
+  }
+  
+  .breadcrumbs ol li + li {
+    padding-left: 10px;
+  }
+  
+  .breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #fff;
+    content: "/";
+  }
+  
+  @media (max-width: 991px) {
+    .breadcrumbs {
+      margin-top: 0px;
+    }
+    .breadcrumbs .d-flex {
+      display: block !important;
+    }
+    .breadcrumbs ol {
+      display: block;
+    }
+    .breadcrumbs ol li {
+      display: inline-block;
+    }
+  }
+
+   /*--------------Vegetable Section-----*/
+  
+   .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  .row{
+    margin: 20px;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    margin: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  .column p{
+    color:#000;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .column form{
+    color:#000;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .column form input{
+    color:#000;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .inpurfiill{
+   margin-left: 10px;
+   margin-bottom: 10px;
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  

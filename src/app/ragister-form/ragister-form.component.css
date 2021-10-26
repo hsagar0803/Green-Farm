@@ -1,0 +1,46 @@
+.main-content{
+	
+	align-items: center;
+    background: colo #f4f4f4;;
+	width: 50%;
+	border-radius: 20px;
+	box-shadow: 5px 10px 10px 10px #f07d7d;
+	margin: 20px 200px;
+	display: flex;
+	
+}
+*[role="form"] {
+   max-width: 530px;
+   padding: 15px;
+   margin: 0 auto;
+   border-radius: 0.3em;
+   background-color:#fff;
+}
+
+*[role="form"] h2 { 
+   font-family: 'Open Sans' , sans-serif;
+   font-size: 40px;
+   font-weight: 600;
+   color: #f07d7d;
+   margin-top: 5%;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+}
+.btn{
+	transition: all .5s ease;
+	width: 40%;
+    
+	border-radius: 30px;
+	color:#f07d7d;
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid #f07d7d;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+   
+}
+.btn:hover, .btn:focus{
+	background-color: #f07d7d;
+	color:#fff;
+}
